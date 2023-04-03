@@ -2,10 +2,13 @@ p {
     font-size: 15px;
 }
 
-
+html {
+    height: 100%;
+    width: 100%;
+}
 
 .first {
-    background-color: LightGrey;
+    background-color: Grey;
     padding: 15px;
 }
 
