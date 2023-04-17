@@ -15,7 +15,7 @@ def contact():
        return render_template("index2.html")
    elif request.method == 'POST':
        print("We received POST")
-       print(request.index)
+       print(request.form)
        return redirect("/")
 
 if __name__ == "__main__": 
