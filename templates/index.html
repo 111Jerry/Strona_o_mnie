@@ -1,21 +1,8 @@
-<!DOCTYPE html>
-<html lang="pl">
-
-<head>
-    <meta charset="utf-8">
-    <title>Moja pierwsza strona</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <h2 class="first">Witaj na mojej stronie domowej</h2><br>
-    <img src="https://dzieje.pl/sites/default/files/styles/pp_zdjecie_glowne_pion/public/202003/slowacki_juliusz.jpg?itok=6nehKTAA"
-        alt="Zdjęcie Juliusza Słowackiego" title="J. Słowacki"><br>
+{% extends "parent.html" %}
+{% block content %}
     <h1 class="second">O mnie</h1><br>
     <p><strong>imię:</strong> Jerzy<br>
     </p>
     <p><strong>nazwisko:</strong> Ziułkowski
     </p>
-</body>
-
-</html>
+{% endblock %}
